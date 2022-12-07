@@ -839,6 +839,26 @@ footer nav {
     color: black;
   }
 }
+@media screen and (max-width: 900px) {
+  .divimgfooter {
+    display: none;
+  }
+  .conteneurpicto {
+    margin: 0;
+    align-items: flex-end;
+  }
+  .conteneurpicto img {
+    display: none;
+  }
+  nav .copyright {
+    align-items: flex-end;
+  }
+}
+@media screen and (max-width: 750px) {
+  .conteneurpicto {
+    display: none;
+  }
+}
 /*le header en general*/
 header {
   margin: 0;

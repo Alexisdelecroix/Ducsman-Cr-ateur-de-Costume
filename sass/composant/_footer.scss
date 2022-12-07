@@ -109,5 +109,32 @@ font-size: 0.8rem;
 }
  }
 
+ @media screen and (max-width: 900px) {
+
+    .divimgfooter {
+        display: none;
+    }
+    .conteneurpicto{
+margin: 0;
+align-items: flex-end;
+    }
+    .conteneurpicto img{
+display: none;
+
+    }
+    nav .copyright{
+        align-items: flex-end;
+    }
+    
+}
+
+@media screen and (max-width: 750px) {
+
+    .conteneurpicto{
+        display: none;
+            }
+}
+
+
  
 
